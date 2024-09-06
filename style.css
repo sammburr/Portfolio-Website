@@ -1,0 +1,140 @@
+* {
+    background-color: rgb(253, 249, 246);
+    color: rgb(65, 65, 65);
+    overflow: hidden;
+}
+
+body {
+    margin: 20px;
+    border: 2px rgb(65, 65, 65) solid;
+}
+
+.name-flex-cont {
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px);
+}
+
+.name-flex-cont > img {
+    padding: 10px;
+
+    background-color: transparent;
+
+    animation: fadeInOpacity 1s ease-in;
+}
+
+.name-title {
+    font-size: 40px;
+
+    background-color: transparent;
+    
+    animation: fadeInOpacity 1s ease-in;
+}
+
+.scroll-tooltip-cont {
+    position: absolute;
+    left: calc(50vw - 90px);
+    bottom: 30px;
+
+    display: flex;
+
+    justify-content: center;
+
+    animation: slideUpBottom 1s ease-in;
+
+    background-color: transparent;
+
+}
+
+.scroll-tooltip {
+    background-color: transparent;
+}
+
+.main-cont {
+    z-index: 100;
+
+    position: absolute;
+    top: 24px;
+
+    background-color: transparent;
+    
+    overflow-y: visible;
+    scroll-behavior: smooth;
+
+    padding: 30px;
+
+    width: calc(100% - 50px - 60px);
+    height: calc(100% - 48px - 60px);
+
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.main-cont > * {
+    background-color: transparent;
+}
+
+.main-cont > div > * {
+    background-color: transparent;
+}
+
+.contents-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.main-cont > div > ul > li > * {
+    background-color: transparent;
+}
+
+.main-cont > div > ul > li {
+    background-color: transparent;
+}
+
+a {
+    background-color: transparent;
+    padding-top: 5px;
+    transition: font-size 0.1s;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+bi {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.scrollable-div::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and Opera */
+}
+
+.main-cont-buffer {
+    height: 100vh;
+    width: 100%;
+
+    background-color: transparent;
+}
+
+@keyframes slideUpBottom {
+    0% {
+        bottom: 18px;
+    }
+    100% {
+        bottom: 30px;
+    }
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 1;
+    }
+}

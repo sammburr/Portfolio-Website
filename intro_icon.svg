@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2.8463378mm"
+   height="8.8180666mm"
+   viewBox="0 0 2.8463378 8.8180666"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <rect
+       x="324.95706"
+       y="524.75513"
+       width="91.913635"
+       height="69.09819"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-80.917353,-138.67813)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-5.4329264,-2.9320558)"
+       id="text3"
+       style="font-size:48px;white-space:pre;shape-inside:url(#rect3);fill:none;stroke:#000000;stroke-width:3.26929;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="324.95703"
+         y="568.54771"
+         id="tspan2"><tspan
+           style="font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;stroke:none"
+           id="tspan1">i</tspan></tspan></text>
+  </g>
+</svg>
