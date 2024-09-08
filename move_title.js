@@ -13,5 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Apply the transform to move the div slightly
       titleDiv.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
       mainContDiv.style.transform = `translate(${offsetX/2}px, ${offsetY/2}px)`;
+      
+    
     });
   });
