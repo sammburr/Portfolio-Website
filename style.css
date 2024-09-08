@@ -9,6 +9,31 @@ body {
     border: 2px rgb(65, 65, 65) solid;
 }
 
+.tag {
+    padding: 0px;
+    margin-left: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    border: 6px solid ;
+
+}
+
+.tblue {
+    border-color: rgb(26, 26, 126);
+    background-color: rgb(26, 26, 126);
+}
+
+.tred {
+    border-color: rgb(201, 6, 6);
+    background-color: rgb(201, 6, 6);
+}
+
+.tyellow {
+    border-color: rgb(151, 149, 40);
+    background-color: rgb(151, 149, 40);
+}
+
 .name-flex-cont {
 
     background-color: transparent;
