@@ -2,6 +2,8 @@
     background-color: rgb(253, 249, 246);
     color: rgb(65, 65, 65);
     overflow: hidden;
+
+    -webkit-text-size-adjust: none;
 }
 
 body {
